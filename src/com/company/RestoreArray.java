@@ -1,7 +1,10 @@
 package com.company;
+
 import java.util.Arrays;
-        public class Main {
-            public static void business () {
+
+        public class RestoreArray {
+
+            public static void sequenceCorrection () {
                 int[] arr = {1, 2, -1, 4, 7, 6, -2, 4};
                 for (int i = 0; i < arr.length - 1; i++) {
                     if (arr[i] < 0) {
@@ -17,7 +20,8 @@ import java.util.Arrays;
                 }
                 System.out.println(Arrays.toString(arr));
             }
+
             public static void main(String[] args) {
-                business();
+                sequenceCorrection();
             }
         }
